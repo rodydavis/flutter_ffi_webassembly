@@ -9,6 +9,8 @@ environment:
   flutter: ">=1.10.0"
 
 dependencies:
+  cupertino_ffi: ^0.2.1
+  ffi_tool: ^0.2.2
   flutter:
     sdk: flutter
 
