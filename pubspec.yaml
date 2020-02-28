@@ -2,7 +2,7 @@ name: flutter_ffi_plugin
 description: A new flutter plugin project.
 version: 0.0.1
 author:
-homepage:
+homepage: https://github.com/rodydavis/flutter_ffi_plugin
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
+  ffi_tool: ^0.1.0
   flutter_test:
     sdk: flutter
 
