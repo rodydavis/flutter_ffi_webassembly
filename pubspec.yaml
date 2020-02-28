@@ -10,6 +10,7 @@ environment:
 
 dependencies:
   cupertino_ffi: ^0.2.1
+  cupertino_ffi_generated: ^0.1.1
   ffi_tool: ^0.2.2
   flutter:
     sdk: flutter

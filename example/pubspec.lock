@@ -64,6 +64,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.1"
+  cupertino_ffi_generated:
+    dependency: transitive
+    description:
+      name: cupertino_ffi_generated
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.1"
   cupertino_icons:
     dependency: "direct main"
     description:
