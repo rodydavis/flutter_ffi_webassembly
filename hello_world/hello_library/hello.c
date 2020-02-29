@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include "hello.h"
 
+int add(int x, int y) {
+  return x + y;
+}
+
 int main()
 {
     hello_world();
@@ -18,4 +22,8 @@ int main()
 void hello_world()
 {
     printf("Hello World\n");
+}
+
+int doubler(int x) {
+  return 2 * x;
 }

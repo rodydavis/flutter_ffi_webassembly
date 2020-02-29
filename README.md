@@ -36,6 +36,8 @@ docker run dart-ffi
 
 ### WebAssembly
 
+https://emscripten.org/docs/getting_started/Tutorial.html
+
 ```
 # Get the emsdk repo
 git clone https://github.com/emscripten-core/emsdk.git
@@ -61,6 +63,14 @@ emcc -v
 # Navigate to the directory
 cd hello_world/hello_library
 
-# Build the c file
+# Build the c file -O1 -O2 Flags for optimization
 emcc hello.c
+
+# Build HTML Preview
+emcc hello.c  -o hello.html
+
+# Export functions
+emcc hello.c -o function.html -s EXPORTED_FUNCTIONS='["_hello_world"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+
+emcc hello.c -Os -s WASM=1 -s SIDE_MODULE=1 -o hello_world.wasm
 ```
