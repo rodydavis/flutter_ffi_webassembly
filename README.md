@@ -5,12 +5,25 @@ A new flutter plugin project.
 ### FFI
 
 ```
+# Remove Codesign on macos
 codesign --remove-signature /usr/local/bin/dart
+
+# Install cmake
 brew install cmake
+
+# Navigate to directory
 cd hello_world/hello_library
+
+# Create project files
 cmake .
+
+# Build libraries
 make
+
+# Navigate back to program
 cd ..
+
+# Run dart program
 dart hello.dart
 ```
 
@@ -41,4 +54,13 @@ git pull
 
 # Activate PATH and other environment variables in the current terminal
 source ./emsdk_env.sh
+
+# If you haven’t run Emscripten before, run it now
+emcc -v
+
+# Navigate to the directory
+cd hello_world/hello_library
+
+# Build the c file
+emcc hello.c
 ```
