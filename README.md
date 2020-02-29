@@ -74,3 +74,5 @@ emcc hello.c -o function.html -s EXPORTED_FUNCTIONS='["_hello_world"]' -s EXTRA_
 
 emcc hello.c -Os -s WASM=1 -s SIDE_MODULE=1 -o hello_world.wasm
 ```
+
+https://itnext.io/how-to-call-a-rust-function-from-dart-using-ffi-f48f3ea3af2c

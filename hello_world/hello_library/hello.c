@@ -4,15 +4,17 @@
 
 #include <stdio.h>
 #include "hello.h"
-
-int add(int x, int y) {
-  return x + y;
-}
+#include <sys/uio.h>
 
 int main()
 {
-    hello_world();
-    return 0;
+  hello_world();
+  return 0;
+}
+
+int add(int x, int y)
+{
+  return x + y;
 }
 
 // Note:
@@ -21,9 +23,10 @@ int main()
 // Refer: https://stackoverflow.com/q/225432/8608146
 void hello_world()
 {
-    printf("Hello World\n");
+  printf("Hello World\n");
 }
 
-int doubler(int x) {
+int doubler(int x)
+{
   return 2 * x;
 }
