@@ -7,7 +7,7 @@ A minimalist audio cli app to illustrate how to use Rust code in Dart using FFI
 
 # Getting started
 - `cargo build`
-- `dart bin/main.dart`
+- `flutter run -d macos`
 
 # TODOs:
 - refactor to lib
