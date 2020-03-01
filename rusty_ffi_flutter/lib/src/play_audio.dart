@@ -46,11 +46,17 @@ FutureOr<void> playAudio(String pathToAudio) async {
   play_once(song);
 }
 
+Map<String, bool> _cachedLibs = {};
+
 Future<String> _copyAssetFile(String path) async {
   final _path = await getApplicationDocumentsDirectory();
   final _file = File('"${_path.path}/${path.split('/').last}"');
-  if (!_file.existsSync()) await _file.createSync(recursive: true);
-  final _lib = await rootBundle.load('$path');
-  _file.writeAsBytesSync(_lib.buffer.asUint8List());
-  return _file.path;
+  final _filePath = _file.path;
+  if (_cachedLibs[_filePath] != null && _cachedLibs[_filePath]) {
+    if (!_file.existsSync()) await _file.createSync(recursive: true);
+    final _lib = await rootBundle.load('$path');
+    _file.writeAsBytesSync(_lib.buffer.asUint8List());
+    _cachedLibs[_filePath] = true;
+  }
+  return _filePath;
 }
