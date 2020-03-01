@@ -17,7 +17,6 @@ typedef play_once_func = ffi.Void Function(ffi.Pointer<Utf8>);
 typedef PlayOnce = void Function(ffi.Pointer<Utf8>);
 
 FutureOr<void> playAudio(String pathToAudio) async {
-  String _dir = 'target/debug';
   ffi.DynamicLibrary dylib;
   // Open the dynamic library that contains the C function.
   if (Platform.isMacOS) {
@@ -26,11 +25,13 @@ FutureOr<void> playAudio(String pathToAudio) async {
   }
 
   if (Platform.isWindows) {
-    dylib = ffi.DynamicLibrary.open("$_dir/libplay_once.dll");
+    String _file = await _copyAssetFile('target/debug/libplay_once.dll');
+    dylib = ffi.DynamicLibrary.open(_file);
   }
 
   if (Platform.isLinux) {
-    dylib = ffi.DynamicLibrary.open("$_dir/libplay_once.so");
+    String _file = await _copyAssetFile('target/debug/libplay_once.so');
+    dylib = ffi.DynamicLibrary.open(_file);
   }
 
   // Get a reference to the C function, and put it into a variable. This code uses the typedefs defined in steps 2 and 3, along with the dynamic library variable from step 4.

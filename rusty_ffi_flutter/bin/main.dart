@@ -33,7 +33,7 @@ main() {
       .asFunction();
 
   // Convert a Dart [String] to a Utf8-encoded null-terminated C string.
-  final ffi.Pointer<Utf8> song = Utf8.toUtf8("data/beep2.wav").cast();
+  final ffi.Pointer<Utf8> song = Utf8.toUtf8("assets/sounds/beep2.wav").cast();
 
   // Call the C function.
   play_once(song);
