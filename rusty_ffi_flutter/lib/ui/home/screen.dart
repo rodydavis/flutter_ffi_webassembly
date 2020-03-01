@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rusty_ffi_flutter/src/play_audio.dart';
+// import 'package:rusty_ffi_flutter/src/hello_world.dart';
+// import 'package:rusty_ffi_flutter/src/play_audio.dart';
+import 'dart:js' as js;
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -10,7 +12,11 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.play_arrow),
-        onPressed: () => playAudio("assets/sounds/beep2.wav"),
+        onPressed: () {
+          // playAudio("assets/sounds/beep2.wav");
+          // helloWorld();
+          js.context.callMethod('addNum', [2, 4]);
+        },
       ),
     );
   }

@@ -1,0 +1,1 @@
+/Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/rusty_ffi_flutter/target/debug/librusty_ffi_flutter.rlib: /Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/rusty_ffi_flutter/src/lib.rs /Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/rusty_ffi_flutter/src/utils.rs

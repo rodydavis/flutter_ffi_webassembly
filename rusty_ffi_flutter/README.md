@@ -9,6 +9,11 @@ A minimalist audio cli app to illustrate how to use Rust code in Dart using FFI
 - `cargo build`
 - `dart bin/main.dart`
 
+`cargo build`
+`wasm-pack build`
+`mkdir web/pkg`
+`cp -r pkg/. web/pkg/.`
+
 # TODOs:
 - refactor to lib
 - Makefiles

@@ -1,0 +1,1 @@
+/Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/rusty_ffi_flutter/target/wasm32-unknown-unknown/release/rusty_ffi_flutter.wasm: /Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/rusty_ffi_flutter/src/lib.rs /Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/rusty_ffi_flutter/src/utils.rs

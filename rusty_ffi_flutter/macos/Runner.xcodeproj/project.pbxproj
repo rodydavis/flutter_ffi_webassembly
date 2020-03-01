@@ -31,7 +31,6 @@
 		9C8B7D55918FFA2AF6BB3EAF /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787B0370CA1D3E032AD0E33A /* Pods_Runner.framework */; };
 		D73912F022F37F9E000D13A0 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73912EF22F37F9E000D13A0 /* App.framework */; };
 		D73912F222F3801D000D13A0 /* App.framework in Bundle Framework */ = {isa = PBXBuildFile; fileRef = D73912EF22F37F9E000D13A0 /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F72F04DE240B388D005A45DB /* libplay_once.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F72F04DD240B388D005A45DB /* libplay_once.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72F04DE240B388D005A45DB /* libplay_once.dylib in Frameworks */,
 				D73912F022F37F9E000D13A0 /* App.framework in Frameworks */,
 				33D1A10422148B71006C7A3E /* FlutterMacOS.framework in Frameworks */,
 				9C8B7D55918FFA2AF6BB3EAF /* Pods_Runner.framework in Frameworks */,
@@ -176,7 +174,6 @@
 				88322F3398AA6FD5ED5FF3B7 /* Pods-Runner.release.xcconfig */,
 				517307D0A8DE5CC936A6EC0E /* Pods-Runner.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
