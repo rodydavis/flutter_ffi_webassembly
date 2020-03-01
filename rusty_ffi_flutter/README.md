@@ -1,15 +1,13 @@
-A minimalist audio cli app to illustrate how to use Rust code in Dart using FFI
+# Flutter + Rust = FFI
 
-# Prerequistes
+Shared rust lib via Flutter Pubspec Assets
+
+## Prerequistes
 
 - [Dart](https://dart.dev/) (at least version 2.5)
 - [Rust](https://www.rust-lang.org/)
 
-# Getting started
+## Getting started
+
 - `cargo build`
 - `flutter run -d macos`
-
-# TODOs:
-- refactor to lib
-- Makefiles
-- Travis CI
