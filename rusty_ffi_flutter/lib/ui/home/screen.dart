@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.play_arrow),
-        onPressed: () => playAudio(),
+        onPressed: () => playAudio("assets/sounds/beep2.wav"),
       ),
     );
   }
