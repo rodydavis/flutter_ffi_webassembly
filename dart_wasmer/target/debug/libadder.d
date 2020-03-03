@@ -1,0 +1,1 @@
+/Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/dart_wasmer/target/debug/libadder.dylib: /Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/dart_wasmer/src/add.wasm /Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/dart_wasmer/src/lib.rs

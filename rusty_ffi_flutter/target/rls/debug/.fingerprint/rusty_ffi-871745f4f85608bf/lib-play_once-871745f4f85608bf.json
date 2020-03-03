@@ -1,0 +1,1 @@
+{"rustc":16478686684742968062,"features":"[]","target":2009171398861443044,"profile":14891217944882224483,"path":10872709659218687626,"deps":[[132801308879451992,"rodio",false,16890946061314162659]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/rusty_ffi-871745f4f85608bf/dep-lib-play_once-871745f4f85608bf"}}],"rustflags":[],"metadata":4629269259269559039}

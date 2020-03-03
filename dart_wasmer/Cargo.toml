@@ -4,7 +4,9 @@ version = "0.1.0"
 authors = ["Rody Davis <rody.davis.jr@gmail.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "adder"
+crate-type = ["cdylib"]
 
 [dependencies]
 wasmer-runtime = "0.13.1"
