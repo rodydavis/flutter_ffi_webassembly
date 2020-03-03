@@ -1,0 +1,11 @@
+/Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/dart_wasmer/target/rls/debug/deps/bincode-6eaa0aa43cf82836.rmeta: /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/lib.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/config.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/de/mod.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/de/read.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/error.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/internal.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/ser/mod.rs
+
+/Users/rodydavis/Developer/GitHub/examples/flutter_ffi_plugin/dart_wasmer/target/rls/debug/deps/bincode-6eaa0aa43cf82836.d: /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/lib.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/config.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/de/mod.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/de/read.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/error.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/internal.rs /Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/ser/mod.rs
+
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/lib.rs:
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/config.rs:
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/de/mod.rs:
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/de/read.rs:
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/error.rs:
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/internal.rs:
+/Users/rodydavis/.cargo/registry/src/github.com-1ecc6299db9ec823/bincode-1.2.1/src/ser/mod.rs:
